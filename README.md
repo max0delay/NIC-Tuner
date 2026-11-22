@@ -18,21 +18,43 @@ A lightweight Windows desktop utility built with **C#** and **WinUI 3** featurin
 * **Modern WinUI 3 Interface:** Styled with a `MicaBackdrop`, custom `TitleBar` (`ExtendsContentIntoTitleBar = true`, `Tall` title bar height), and custom application icon (`Assets/AppIcon.ico`).
 * **Streamlined Navigation:** Uses a `NavigationView` (`IsSettingsVisible="False"`) with `Home` and `About` pages hosted inside a `Frame` (`NavFrame`), plus back-button and pane-toggle support.
 * **NIC Tuner:** Targets network adapter parameters such as interrupt moderation, queues, offload features, and power-saving states to lower latency and improve stability.
-* **Extensible Page Architecture:** Pages are organized under `Services_Optimizer___Developed_by_Max.Pages` (`HomePage`, `AboutPage`, and additional feature views).
+* **Extensible Page Architecture:** Pages are organized under `NIC_Tuner___Developed_by_Max.Pages` (`HomePage`, `AboutPage`, and additional feature views).
 
 ---
 
 ## Project Structure
 
 ```text
-Services_Optimizer___Developed_by_Max/
+NIC_Tuner___Developed_by_Max/
 ├── Assets/
 │   └── AppIcon.ico
 ├── Pages/
 │   ├── AboutPage.xaml
 │   ├── AboutPage.xaml.cs
+│   ├── AdapterSettingsPage.xaml.
+│   ├── AdapterSettingsPage.xaml.cs
+│   ├── AutoDscpFsePage.xaml.
+│   ├── AutoDscpFsePage.xaml.cs
+│   ├── AutoMtuPage.xaml.
+│   ├── AutoMtuPage.xaml.cs
+│   ├── DriverFinderPage.xaml.
+│   ├── DriverFinderPage.xaml.cs
+│   ├── NetshPage.xaml.
+│   ├── NetshPage.xaml.cs
+│   ├── NetworkInfoPage.xaml.
+│   ├── NetworkInfoPage.xaml.cs
+│   ├── OffloadsPage.xaml
+│   ├── OffloadsPage.xaml.cs
+│   ├── PowerrPage.xaml
+│   ├── PowerPage.xaml.cs
+│   ├── ResetPage.xaml
+│   ├── ResetPage.xaml.cs
+│   ├── TcpIpPage.xaml
+│   ├── TcpIp.xaml.cs
 │   ├── HomePage.xaml
-│   └── HomePage.xaml.cs
+│   ├── HomePage.xaml.cs
 ├── MainWindow.xaml
 ├── MainWindow.xaml.cs
-└── Services_Optimizer___Developed_by_Max.csproj
+└── NIC_Tuner___Developed_by_Max.csproj
+└── TweakRunner.cs
+└── TweakUi.cs

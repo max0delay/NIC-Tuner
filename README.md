@@ -1,4 +1,4 @@
-# Services Optimizer - Developed by Max
+# NIC Tuner - Developed by Max
 
 A lightweight Windows desktop utility built with **C#** and **WinUI 3** featuring a Mica backdrop, custom title bar integration, streamlined navigation, and system/network optimization tools—including the **NIC Tuner**.
 
@@ -6,7 +6,7 @@ A lightweight Windows desktop utility built with **C#** and **WinUI 3** featurin
 
 ## Overview
 
-**Services Optimizer - Developed by Max** is designed to give users a clean, distraction-free interface to manage Windows services and tune network adapter behavior for responsive system performance.
+**NIC Tuner - Developed by Max** is designed to give users a clean, distraction-free interface to manage Windows services and tune network adapter behavior for responsive system performance.
 
 ### NIC Tuner
 > Optimizes your Network Interface Controller (NIC) settings to reduce network latency, minimize packet drops, and improve connection stability. It adjusts adapter parameters—like interrupt moderation, queues, offload features, and power-saving states—for more responsive traffic handling.
